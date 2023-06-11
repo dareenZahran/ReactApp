@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #6c5b7b;
+  --secondary-color: #f7cac9;
+  --font-size-header: 2.5rem;
+  --font-size-subheader: 1.2rem;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo {
+  font-size: var(--font-size-header);
+  margin: 0;
+}
+
+.logo:hover {
+  color: var(--secondary-color);
+}
+
+.subheader {
+  font-size: var(--font-size-subheader);
+  margin: 0;
+  font-weight: bold;
+}
+
+.subheader span {
+  display: block;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}

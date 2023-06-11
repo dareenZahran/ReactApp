@@ -1,0 +1,46 @@
+.meal-details {
+  max-width: 800px;
+
+  padding: 30px;
+}
+
+.meal-details {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.meal-name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.meal-instructions {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.meal-instructions p {
+  margin-bottom: 10px;
+}
+
+.meal-instructions strong {
+  font-weight: bold;
+}
+
+.meal-instructions em {
+  font-style: italic;
+  font-style: b;
+}
+.meal-image {
+  width: 50%;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.meal-text {
+  width: 50%;
+  float: left;
+}
